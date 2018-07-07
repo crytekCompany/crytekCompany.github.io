@@ -47,6 +47,10 @@ body{
 	border-radius: 5px; 
 }
 
+.demo a:hover{
+	color: red;
+}
+
 .disc {
 	background: #830000;
 	position: absolute;
@@ -80,5 +84,26 @@ img.set {
 	transform: rotate(360deg);
 }
 
+.Description a:hover{ 
 
-	
+	color: red;
+
+}
+
+.Description a{
+
+	color: black;
+
+}
+
+a.sc:link {color:#FFFFFF;} 
+a.sc:active {color:#FFFF00;} 
+a.sc:visited {color:#FFFFFF;} 
+a.sc:hover {text-decoration:none; color:#000080;}
+
+.sc2{
+	color: white;
+}
+
+
+
