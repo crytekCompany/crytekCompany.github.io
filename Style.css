@@ -109,12 +109,17 @@ a.sc:hover {text-decoration:none; color:#000080;}
 
 }
 
-#crytek{
-	position: absolute;
-	display: block;
-	float: right;
+.tw{
+	color: #800080;
 }
 
+.cop{
+	color: black;
+}
+
+.qwe{
+	color: white;
+}
 
 
 
