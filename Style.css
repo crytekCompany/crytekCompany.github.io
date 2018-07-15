@@ -115,6 +115,16 @@ a.sc:hover {text-decoration:none; color:#000080;}
 
 .cop{
 	color: black;
+	vertical-align: middle;
+	  
+	height: 20px; 
+	border: 10px solid indigo;
+	border-radius: 50px;
+}
+
+.copy{
+	text-align: center;
+	bottom: 200px;
 }
 
 .qwe{
