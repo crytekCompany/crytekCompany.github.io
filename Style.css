@@ -121,6 +121,12 @@ a.sc:hover {text-decoration:none; color:#000080;}
 	color: white;
 }
 
+a.sc3:link {color:#FFFFFF;} 
+a.sc3:active {color:#FFFF00;} 
+a.sc3:visited {color:#FFFFFF;} 
+a.sc3:hover {text-decoration:none; color:#000080;}
+
+
 
 
 
