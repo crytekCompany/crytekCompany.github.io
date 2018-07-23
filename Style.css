@@ -136,6 +136,10 @@ a.sc3:active {color:#FFFF00;}
 a.sc3:visited {color:#FFFFFF;} 
 a.sc3:hover {text-decoration:none; color:#000080;}
 
+.intro{
+	width: 500px;
+	margin:20px auto 20px;
+}
 
 
 
