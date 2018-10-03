@@ -1,25 +1,163 @@
+body {
+	font-family: 'Coming Soon', cursive;
+	background: #808080;
+}
+
 a {
 	text-decoration: none;
 	color: #fff;
 }
 
-*{
-	margin: 0px;
-	padding: 0pc;
+
+
+#contentandsidebar:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
-body{background: url(img/bb.jpeg);
- 	
- 	margin: ;
- 	padding: ;
- 	font-family: Tahoma;
-	}
+#header {
 
-body{
-  margin: 0;
-  padding: 0;
-  font: 1em sans-serif;
+	background: #FFF8DC;
+	height: 150px;
+	border-radius: 10px;
+	margin-bottom: 50px;
 }
+
+
+#content {
+
+	background: #C0C0C0;
+	min-height: 400px;
+	margin-right: 18px;
+	border-radius: 5px;	
+	width: 69%;
+	float: left;
+}
+
+
+#sidebar {
+
+	background: #696969;
+	border-radius: 10px;
+	width: 30%;
+	min-height: 400px;
+	float: left;	
+}
+
+
+#footer {
+
+	background: #C0C0C0;
+	height: 150px;
+	margin-top: 55px;
+	border-radius: 15px;
+}
+
+
+a.sc:link {color:#FFFFFF;} 
+a.sc:active {color:#FFFF00;} 
+a.sc:visited {color:#FFFFFF;} 
+a.sc:hover {text-decoration:none; color:#000080;}
+
+
+
+a.asd:link {color:#000000;} 
+a.asd:active {color:#FFFF00;} 
+a.asd:visited {color:#000000;} 
+a.asd:hover {text-decoration:none; color:#000080;}
+
+
+
+a.sc3:link {color:#FFFFFF;} 
+a.sc3:active {color:#FFFF00;} 
+a.sc3:visited {color:#FFFFFF;} 
+a.sc3:hover {text-decoration:none; color:#000080;}
+
+
+
+#oldsite {
+
+	float: right;
+}
+
+.lidws {
+
+	list-style-type: none;
+}
+
+
+
+
+.dws {
+
+ position: absolute;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%, -50%);
+} 
+
+.butt {
+ border: 3px solid #218294;
+ font-size: 30px;
+ color: #218294;
+ text-decoration: none;
+ text-transform: uppercase;
+ width: 250px;
+ height: 60px;
+ display: block;
+ text-align: center;
+ line-height: 60px;
+ font-family: Arial, sans-serif;
+ position: relative;
+ transition: 0.5s;
+ overflow: hidden;
+} 
+
+.butt::before,
+.butt::after { 
+ position: absolute;
+ content: '';
+ width: 100%;
+ height: 100%;
+ background: #218294;
+ top: 0;
+ left: -100%;
+ opacity: .5;
+ transition: 1.2s;
+ z-index: -1;
+}    
+
+.butt:hover {
+ color: #fff;
+}  
+
+.butt:hover::before {
+ left: 0;
+}   
+
+.butt::after {
+ opacity: 1;
+ transition-delay: 1s;
+}  
+.butt:hover::before,
+.butt:hover::after {
+ left: 0;
+} 
+.butt::after {
+ opacity: 1;
+ transition-delay: .3s;
+}     
+
+
+
+
+
+
+
+
+
+
 
 .button{
 	margin: 20px auto;
@@ -32,7 +170,7 @@ body{
 
 
 .demo{
-	background: #af0000;
+	background: black;
 	width: 200px;
 	height: 60px;
 	padding: 0 0 0 50px;
@@ -52,7 +190,7 @@ body{
 }
 
 .disc {
-	background: #830000;
+	background: black;
 	position: absolute;
 	width: 100px;
 	height: 40px;
@@ -83,64 +221,3 @@ img.set {
 .button:hover img.set {
 	transform: rotate(360deg);
 }
-
-.Description a:hover{ 
-	color: red;
-}
-
-.Description a{
-	color: black;
-}
-
-.Description{
-	text-align: center;
-}
-
-a.sc:link {color:#FFFFFF;} 
-a.sc:active {color:#FFFF00;} 
-a.sc:visited {color:#FFFFFF;} 
-a.sc:hover {text-decoration:none; color:#000080;}
-
-.sc2{
-	color: white;
-}
-
-@media screen and (max-width: 320px){
-
-}
-
-.tw{
-	color: #800080;
-}
-
-.cop{
-	color: black;
-	vertical-align: middle;
-	  
-	height: 20px; 
-	border: 10px solid indigo;
-	border-radius: 50px;
-}
-
-.copy{
-	text-align: center;
-	bottom: 200px;
-}
-
-.qwe{
-	color: white;
-}
-
-a.sc3:link {color:#FFFFFF;} 
-a.sc3:active {color:#FFFF00;} 
-a.sc3:visited {color:#FFFFFF;} 
-a.sc3:hover {text-decoration:none; color:#000080;}
-
-.intro{
-	width: 500px;
-	margin:20px auto 20px;
-}
-
-
-
-
